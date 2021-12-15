@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+height: 100vh;
+width: 100vw;
+background-color: brown;
+
+}
+.container{
+height: 50%;
+width: 50%;
+ scroll-snap-type: both mandatory; 
+overflow-x: scroll;
+display: flex;
+}
+.container .box{
+height: 100%;
+width: 100%;
+border: 2px solid ;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 3rem;
+flex: none;
+scroll-snap-align: start;
+scroll-margin-left: 100px;
+}
+.container .box-1{
+background-color: black;
+color: greenyellow;
+}
+.container .box-2{
+
+    background-color: crimson;
+    color: antiquewhite;
+}
+.container .box-3{
+background-color: coral;
+color: firebrick;
+}
